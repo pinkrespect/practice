@@ -12,3 +12,16 @@ var top = new Vue ({
 		topImg: "index.png"
 	}
 })
+
+var menu = new Vue({
+	el: "#menu",
+	data: {
+	}
+})
+
+
+var bottom = new Vue ({
+	el: "#bottom",
+	data: {
+	}
+})
