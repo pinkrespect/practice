@@ -1,4 +1,4 @@
 # HTML Practice
 ## using
- - HTML 5, CSS, JS-Vue.js
+ - using Bootstrap-vue
  - python3 Flask
