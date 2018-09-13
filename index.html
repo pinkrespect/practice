@@ -3,16 +3,24 @@
 	<link href="index.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Hello</title>
 	</head>
 	<body>
-		<div id="top">
+		<div class="top">
 			{{ topTitle }}
 			<img v-bind:src="topImg"/>
 		</div>
-		<div id="app">
-			{{ message }}
+		<div id="fixed-menu">
+			<a v-bind:href="#">{{ menu1 }}</a>
+			<a v-bind:href="#">{{ menu2 }}</a>
+			<a v-bind:href="#">{{ menu3 }}</a>
+			<a v-bind:href="#">{{ menu4 }}</a>
 		</div>
+		<div id="bottom">
+			{{ bottom }}
+		</div>
+	아니씨발왜안나오냐고
 	</body>
 	<script type="text/javascript" src="index.js"></script>
 </html>

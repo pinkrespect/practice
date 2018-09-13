@@ -1,12 +1,5 @@
-var app = new Vue({
-	el: '#app',
-	data: {
-		message: "Hello, Vue"
-	}
-})
-
 var top = new Vue ({
-	el: "#top",
+	el: ".top",
 	data: {
 		topTitle: "Welcome to my Vue.js",
 		topImg: "index.png"
@@ -14,8 +7,13 @@ var top = new Vue ({
 })
 
 var menu = new Vue({
-	el: "#menu",
+	el: "#fixed-menu",
 	data: {
+		menu1: "menu1",
+		menu2: "menu2",
+		menu3: "menu3",
+		menu4: "menu4",
+
 	}
 })
 
@@ -23,5 +21,6 @@ var menu = new Vue({
 var bottom = new Vue ({
 	el: "#bottom",
 	data: {
+		bottom: "bottomDiscription"
 	}
 })
