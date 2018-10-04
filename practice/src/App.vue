@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <H1> 헬로 월드 ㅇㅅㅇ+</H1>
     <router-view/>
   </div>
 </template>
